@@ -1,4 +1,7 @@
 Shaundotme::Application.routes.draw do
+
+get "pages/hero"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
