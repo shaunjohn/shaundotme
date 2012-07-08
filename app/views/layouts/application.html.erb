@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Shaundotme</title>
+<title>The Personal Site of Shaun Johnson</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+
+ <link rel="stylesheet" href="css/bin/index.css">
   <%= csrf_meta_tags %>
+
+  
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="/public/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="72x72" href="http://a3.twimg.com/profile_images/230696884/ft_icon2.jpgg">
+  <link rel="apple-touch-icon" sizes="114x114" href="/public/favicon.ico">
+
 </head>
 <body>
 
 <%= yield %>
+
+
+<!-- Insert Analytics scripts here (GA and/or Mixpanel) -->
+
 
 </body>
 </html>

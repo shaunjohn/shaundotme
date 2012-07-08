@@ -1,4 +1,4 @@
-require 'wuparty'
+
 
 class PagesController < ApplicationController
   def home
